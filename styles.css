@@ -262,7 +262,8 @@
 
   /* Photos Page */
   main .photos {
-    margin: 50px 180px 100px;
+    margin: 0 auto;
+    margin-top: 50px;
     width: 75%;
     height: auto;
     overflow: hidden;
