@@ -224,7 +224,56 @@
     }
   
   }
+  /* Styles for Smaller Screen */
+
+  @media screen and (max-width: 720px) {
+    
+    .flex {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
   
+    header {
+      min-height: 450px;
+    }
+  
+    .nav {
+      max-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .nav li {
+      font-size: 1em;
+
+    }
+  
+    .nav .name {
+      display: block;
+      margin-right: auto;
+      color: whitesmoke;
+      font-size: 1em;
+    }
+  
+    main {
+      padding-top: 50px;
+    }
+  
+    main p {
+      line-height: 1.6em;
+    }
+  
+    footer {
+      font-size: 1.3em;
+      max-width: 1200px;
+      margin: 40px auto;
+      color: whitesmoke;
+    }
+  
+  }
+
   /* Experience Page */
 
   main .exp-title {
