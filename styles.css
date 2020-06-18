@@ -34,7 +34,7 @@
     color: whitesmoke;
     background: #033f90;
     z-index: 1;
-    border: solid 1px whitesmoke;
+    /* border: solid 1px whitesmoke; */
   }
 
   .name {
@@ -43,7 +43,7 @@
     color: whitesmoke;
     float: left;
     margin-left: 30px;
-    border: solid 1px whitesmoke;
+    /* border: solid 1px whitesmoke; */
     /* position: absolute;
     top: 20px; */
   }
@@ -55,7 +55,7 @@
     padding: 20px;
     color: #033f90;
     float: right;
-    border: solid 1px whitesmoke;
+    /* border: solid 1px whitesmoke; */
   }
  
   .nav li {
