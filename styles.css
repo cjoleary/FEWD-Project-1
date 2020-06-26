@@ -43,9 +43,6 @@
     color: whitesmoke;
     float: left;
     margin-left: 30px;
-    /* border: solid 1px whitesmoke; */
-    /* position: absolute;
-    top: 20px; */
   }
 
   .nav {
@@ -67,12 +64,6 @@
   }
   .nav a:hover {
     color: #222;
-  }
-  
-  .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
   }
 
   header {
@@ -195,6 +186,12 @@
   .clearfix {
     clear: both;
   }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   
   /* Styles for larger screens */
   @media screen and (min-width: 720px) {
@@ -240,7 +237,7 @@
   }
   /* Styles for Smaller Screen */
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 719px) {
     
     .flex {
         display: flex;
